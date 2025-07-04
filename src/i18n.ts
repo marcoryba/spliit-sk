@@ -17,6 +17,7 @@ export const localeLabels = {
   'tr-TR': 'Türkçe',
   'pt-BR': 'Português Brasileiro',
   'nl-NL': 'Nederlands',
+  'sk-SL': 'Slovakia',
 } as const
 
 export const locales: (keyof typeof localeLabels)[] = Object.keys(
